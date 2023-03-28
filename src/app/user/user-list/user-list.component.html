@@ -1,0 +1,24 @@
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>NAME</th>
+            <th>EMAIL</th>
+            <th>ADDRESS</th>
+            <th>PASSWORD</th>
+            <th>ACTION</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let a of user">
+            <td>{{a.id}}</td>
+            <td>{{a.name}}</td>
+            <td>{{a.email}}</td>
+            <td>{{a.address}}</td>
+            <td>{{a.password}}</td>
+            <td><button class="btnedit" (click)="editUser(a.id)">Edit</button><button class="btndelete" (click)="deleteUser(a.id)">Delete</button></td>
+            
+        </tr>
+    </tbody>
+</table>

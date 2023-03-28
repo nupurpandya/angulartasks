@@ -1,0 +1,9 @@
+.btn-adduser{
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    color: white;
+}

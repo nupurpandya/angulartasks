@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "name": "Nupur",
+      "email": "nupurpandya@gmail.com",
+      "address": "Udvada",
+      "password": "123",
+      "id": 9
+    },
+    {
+      "name": "PHD",
+      "email": "nupspandya@gmail.com",
+      "address": "US",
+      "password": "123",
+      "id": 10
+    }
+  ]
+}

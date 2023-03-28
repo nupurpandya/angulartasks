@@ -1,0 +1,30 @@
+table{
+    width: 100%;
+    margin-top: 50px;
+   
+}
+th{
+    background-color: #8b578b;
+    padding: 10px;
+}
+tr:nth-child(even){
+    background-color: #ddd5dd;
+}
+td{
+    padding: 10px;
+}
+.btnedit{
+    background-color: #f587ac;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+}
+.btndelete{
+    background-color: #d399d3;
+    border-radius: 5px;
+    border: none;
+}
+button{
+    height: 40px;
+    width: 80px;
+}
