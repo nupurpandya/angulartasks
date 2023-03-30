@@ -7,4 +7,18 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'HTTPapi';
+  id: any;
+  name: any;
+  email: any;
+  address: any;
+  password: any;
+  getListData(data:any){
+    this.id=data.id,
+    this.name=data.name,
+    this.email=data.email,
+    this.address=data.address
+    this.password=data.password
+    console.log(this.id);
+    
+  }
 }

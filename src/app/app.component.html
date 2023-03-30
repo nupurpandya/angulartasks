@@ -1,3 +1,4 @@
-<app-add-user></app-add-user>
-<app-user-list></app-user-list>
+
+<app-add-user [id]="id" [name]="name" [email]="email" [address]="address" [password]="password"></app-add-user>
+<app-user-list (myevent)="getListData($event)"></app-user-list>
 <router-outlet></router-outlet>

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { UserServiceService } from '../user-service.service';
 
 @Component({
@@ -7,6 +7,7 @@ import { UserServiceService } from '../user-service.service';
   styleUrls: ['./user-list.component.css']
 })
 export class UserListComponent implements OnInit {
+  @Output() myevent=new EventEmitter;
   user: any;
 
   constructor(private userservice:UserServiceService) { }

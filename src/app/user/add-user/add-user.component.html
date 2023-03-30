@@ -1,8 +1,9 @@
-<button class="btn-adduser" (click)="toggle()">
-    {{buttonName}}
-</button>
+
+<!-- <button class="btn-adduser" >
+   Add USER
+</button> -->
 <div class="form-class d-flex justify-content-center">
-<form [formGroup]="userForm" (ngSubmit)="postData()" class="w-50" *ngIf="show">
+<form [formGroup]="userForm" (ngSubmit)="condition?postData():editUser()" class="w-50" >
     <div class="mb-3">
       <label for="name" class="form-label">Name</label>
       <input type="text" class="form-control" id="name" formControlName="name">
@@ -20,6 +21,8 @@
         <label for="password">Password</label>
       <input type="password"  id="password" class="form-control" formControlName="password">
     </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <!-- <input type="text" name="nupur" id="nupur" #inputref>
+    <button (click)="getRef(inputref)">REFERENCE</button> -->
+    <button type="submit" class="btn btn-primary" >{{buttonnamechange}}</button>
   </form>
 </div>

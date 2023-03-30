@@ -8,7 +8,7 @@ export class UserServiceService {
 
   constructor(private http:HttpClient) { }
   url:any=" http://localhost:3000/users";
-  postUser(data:any){6
+  postUser(data:any){
     return  this.http.post(this.url,data);
   }
   getUser(){
@@ -19,5 +19,8 @@ export class UserServiceService {
   }
   getDataById(id:any){
     return this.http.get(this.url+"/"+id)
+  }
+  updateUser(id:any,data:any){
+    return this.http.put(this.url+"/"+id,data)
   }
 }

@@ -1,18 +1,46 @@
 {
   "users": [
     {
-      "name": "Nupur",
+      "name": "Diya",
       "email": "nupurpandya@gmail.com",
-      "address": "Udvada",
-      "password": "123",
-      "id": 9
+      "address": "1236",
+      "password": "122",
+      "id": 2
     },
     {
-      "name": "PHD",
-      "email": "nupspandya@gmail.com",
-      "address": "US",
+      "name": "Maahi",
+      "email": "hgh",
+      "address": "sfsd",
+      "password": "122",
+      "id": 3
+    },
+    {
+      "name": "Nupur",
+      "email": "nupurpandya@gmail.com",
+      "address": "sfsd",
+      "password": "2312",
+      "id": 4
+    },
+    {
+      "name": "Manisha",
+      "email": "nupurpandya@gmail.com",
+      "address": "sfsd",
       "password": "123",
-      "id": 10
+      "id": 5
+    },
+    {
+      "name": "asdsa",
+      "email": "nupspandya@gmail.com",
+      "address": "sfsd",
+      "password": "123123",
+      "id": 6
+    },
+    {
+      "name": "Nupur",
+      "email": "nupurpandya@gmail.com",
+      "address": "sfsd",
+      "password": "234",
+      "id": 7
     }
   ]
 }
